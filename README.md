@@ -2,7 +2,7 @@ Twemoji4Android
 ===============
 
 * [Twemoji](https://github.com/twitter/twemoji)を用いたAndroid向けの絵文字フォントを生成するツールです。
-* ※「必要なもの」及び「使い方」において、特に注釈等の断りがない場合はUbuntuにおける説明となります。[Mac向けの説明については本家レポジトリ様をご覧下さい。](https://github.com/tetsu31415/Twemoji4Android)
+* ※「必要なもの」及び「使い方」において、特に注釈等の断りがない場合はUbuntuにおける説明となります。[Mac向けの説明については本家様の記事をご覧下さい。](http://tetsu31415.hatenablog.com/entry/2014/11/22/012845)
 
 # 下準備
 ``` terminal
