@@ -5,16 +5,16 @@ Twemoji4Android
 * ※「必要なもの」及び「使い方」において、特に注釈等の断りがない場合はUbuntuにおける説明となります。[Mac向けの説明については本家様の記事をご覧下さい。](http://tetsu31415.hatenablog.com/entry/2014/11/22/012845)
 
 # 下準備
+必要なパッケージを予めインストールしておきます。
 ``` terminal
  sudo apt install imagemagick libcairo2 libharfbuzz-bin libpango-1.0-0 librsvg2-bin python-gtk2
 ```
-必要なパッケージを予めインストールしておきます。
 
+本家レポジトリからソースを```clone```し、ディレクトリへ```cd```します。
 ```terminal
  git clone https://github.com/tetsu31415/Twemoji4Android
  cd Twemoji4Android
 ```
-本家レポジトリからソースを```clone```し、ディレクトリへ```cd```します。
 
 # 使い方
 実行するには
