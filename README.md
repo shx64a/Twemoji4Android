@@ -1,18 +1,39 @@
 Twemoji4Android
 ===============
 
-A tool that makes color emoji for Android from [Twemoji](https://github.com/twitter/twemoji).
+* [Twemoji](https://github.com/twitter/twemoji)を用いたAndroid向けの絵文字フォントを生成するツールです。
+* ※「必要なもの」及び「使い方」において、特に注釈等の断りがない場合はUbuntuにおける説明となります。[Mac向けの説明については本家レポジトリ様をご覧下さい。](https://github.com/tetsu31415/Twemoji4Android)
 
-# Requirements
-* Python
-* FontTools
-* librsvg
+# 下準備
+``` terminal
+ sudo apt install imagemagick libcairo2 libharfbuzz-bin libpango-1.0-0 librsvg2-bin python-gtk2
+```
+必要なパッケージを予めインストールしておきます。
 
-# Usage
-Run
+```terminal
+ git clone https://github.com/tetsu31415/Twemoji4Android
+ cd Twemoji4Android
 ```
-$ make
+本家レポジトリからソースを```clone```し、ディレクトリへ```cd```します。
+
+# 使い方
+実行するには
+``` terminal
+make SHELL:=/bin/bash 
 ```
+か、Makefileの1行目に
+```
+SHELL:=/bin/bash
+```
+と入力し、
+
+再度makeする場合は一度
+``` terminal
+make clean
+```
+を実行してからmakeして下さい[とのことです](https://github.com/tetsu31415/Twemoji4Android/issues/2)。
+
+<!-- ここまで加筆。ここから下は加筆しません。 -->
 
 # Licenses
 ### Twemoji4Android 
